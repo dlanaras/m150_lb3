@@ -1,0 +1,39 @@
+.flex-table {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.table-head {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table-body {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-body div {
+    display: flex;
+}
+
+.password {
+    filter: blur(20px);
+    flex-grow: 3;
+}
+
+.name {
+    flex-grow: 3;
+}
+
+.password:hover {
+    filter: blur(0);
+}
+
+.add-password {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(20, 21, 38);
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}
+
+.slow {
+    color: yellow;
+}
+
+.fast {
+    color: greenyellow;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+@font-face {
+    font-family: "Montserrat,Montserrat-Fixed,Avenir";
+    src: url("./Montserrat-VariableFont_wght-kern-latin.woff2");
+}
+
+* {
+    font-family: "Montserrat,Montserrat-Fixed,Avenir";
+}
