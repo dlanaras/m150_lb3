@@ -9,6 +9,7 @@
   "author": "dlanaras",
   "license": "ISC",
   "dependencies": {
+    "escape-html": "^1.0.3",
     "express": "^4.18.2"
   }
 }
